@@ -1,16 +1,15 @@
-﻿# website-upload-20260602-121726-199
+# 经典电视剧-高清剧集片库-电视剧免费在线观看
 
-Batch 199 of 38. Contains extracted static website versions. The original zip files are not committed.
+生成内容：
 
-| Directory | Source zip |
-| --- | --- |
-| version-1981 | project-bolt-sb1-lgl53wgl - 副本-chatgpt (1) (moved 1).zip |
-| version-1982 | project-bolt-sb1-lgl53wgl - 副本-chatgpt (1).zip |
-| version-1983 | project-bolt-sb1-lgl53wgl-chatgpt (1) (moved 1).zip |
-| version-1984 | project-bolt-sb1-lgl53wgl-chatgpt (1).zip |
-| version-1985 | project-bolt-sb1-lgx467ht - 副本-chatgpt (1) (moved 1).zip |
-| version-1986 | project-bolt-sb1-lgx467ht - 副本-chatgpt (1).zip |
-| version-1987 | project-bolt-sb1-lgx467ht-chatgpt (1).zip |
-| version-1988 | project-bolt-sb1-li583pef - 副本-chatgpt (1).zip |
-| version-1989 | project-bolt-sb1-li583pef-chatgpt (1).zip |
-| version-1990 | project-bolt-sb1-ligade3k - 副本-chatgpt (1) (moved 1).zip |
+- 影片数据：2000 条
+- 独立详情页：2000 个
+- 独立分类页：10 个
+- 封面引用：顶级目录 `1.jpg` 到 `150.jpg`，ZIP 内未包含 JPG 图片
+- 播放器：详情页使用 HLS 播放逻辑，点击播放按钮后初始化
+
+部署说明：
+
+1. 解压 ZIP 到网站根目录。
+2. 将 `1.jpg` 到 `150.jpg` 手动放到网站顶级目录，与 `index.html` 同级。
+3. 直接访问 `index.html` 即可浏览全站。
