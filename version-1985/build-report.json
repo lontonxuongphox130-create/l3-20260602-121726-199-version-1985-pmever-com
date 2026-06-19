@@ -1,0 +1,10 @@
+{
+    "movies_parsed": 2000,
+    "html_files": 2016,
+    "detail_pages": 2000,
+    "category_pages": 10,
+    "video_urls_reused": 150,
+    "baidu_script_checked_files": 2016,
+    "jpg_files_included": 0,
+    "errors": []
+}
